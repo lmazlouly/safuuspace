@@ -470,9 +470,9 @@ section{
     margin: 0 0 30px;
     overflow: hidden;
     border-radius: 3px;
-    box-shadow: 0 10px 30px 0 rgba(50,50,98,0.15);
-    -webkit-box-shadow: 0 10px 30px 0 rgba(50,50,98,0.15);
-    border: 1px solid rgba(0, 0, 0, 0.06);
+    /* box-shadow: 0 10px 30px 0 rgba(50,50,98,0.15);
+    -webkit-box-shadow: 0 10px 30px 0 rgba(50,50,98,0.15); */
+    /* border: 1px solid rgba(0, 0, 0, 0.06); */
 }
 /*Featured Slider Css Start*/
 .crypton-vertion .featured-slider .featured-thumb.b-shadow,
@@ -1857,7 +1857,16 @@ footer.dark-black .widget_recent_entries ul li{
     right: 0;
 }
 
-/* max-width: 20%;
-top: -6em;
-right: 45.5%;
-z-index: 99; */
+.d-none {
+    display: none!important;
+}
+
+.my-3 {
+    margin-bottom: 3%!important;
+    margin-top: 3%!important;
+}
+
+.featured-thumb img {
+    max-height: 20px;
+    width: auto;
+}
