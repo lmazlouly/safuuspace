@@ -620,7 +620,8 @@ section{
     padding: 40px 40px 23px;
     background-color: #21232e;
     box-shadow: 0 0 0 1px rgba(186,186,186,0.028), 0 1.8vw 3vw -0.7vw rgba(0,0,0,0.06);
-    -webkit-box-shadow: 0 0 0 1px rgba(186,186,186,0.028), 0 1.8vw 3vw -0.7vw rgba(0,0,0,0.06);
+    -webkit-box-shadow: 0 0 0 1px rgb(1 174 240), 0 1.8vw 3vw -0.7vw rgb(1 174 240 / 6%);
+    min-height: 24em;
 }
 .features-thumb-2 .svg-icon{
     float: none;
@@ -1937,4 +1938,56 @@ h1.banner-title {
 .btn.radius-5.th-bg.v2:hover{
     color: white!important;
     background: #01AEF0!important;
+}
+.partners {
+    background-color: #1e2026;
+    padding-bottom: 45px!important;
+}
+h2.section-title {
+    font-weight: 700;
+    font-family: Lato;
+}
+img.about-us-img {
+    max-height: 34.5em;
+}
+.pt-5 {
+    padding-top: 7%;
+}
+.text-safuuspace {
+    text-transform: uppercase!important;
+    font-weight: bold!important;
+    color: #01AEF0!important;
+}
+p.about-text {
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.65;
+    padding-top: 20px;
+    color: #f1f1f1;
+}
+#about-us, #documents {
+    padding-bottom: 5%;
+}
+.btn-whitepaper, .btn-audit {
+    border: 1px #01AEF0 solid;
+    color: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 26px;
+}
+.btn-whitepaper:hover, .btn-audit:hover {
+    box-shadow: 5px 3px 27px 0px rgba(1,174,240,0.75);
+    -webkit-box-shadow: 5px 3px 27px 0px rgba(1,174,240,0.75);
+    -moz-box-shadow: 5px 3px 27px 0px rgba(1,174,240,0.75);
+    border-bottom: 3px #01AEF0 solid;
+    color: #fff;
+    padding: 15px;
+    border-radius: 6px;
+}
+.btn-whitepaper i,
+.btn-whitepaper svg,
+.btn-audit i,
+.btn-audit svg {
+    margin-left: 1%;
 }
