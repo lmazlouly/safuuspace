@@ -2008,3 +2008,19 @@ div.tokenomics-2{
     font-size: 20px;
     line-height: 1.5em;
 }
+.social-list.long a {
+    border-color: white;
+}
+.social-list.long a i {
+    color: white;
+}
+
+.social-list.long a:hover {
+    border-color: #01AEF0;
+}
+.social-list.long a:hover i {
+    color: #01AEF0;
+}
+.sticky-header .container {
+    padding-right: 6em;
+}
