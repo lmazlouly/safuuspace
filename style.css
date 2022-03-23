@@ -1991,3 +1991,20 @@ p.about-text {
 .btn-audit svg {
     margin-left: 1%;
 }
+div.tokenomics-1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 2px #01AEF0 dashed;
+    border-right: unset;
+}
+div.tokenomics-2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 2px #01AEF0 dashed;
+}
+
+div.tokenomics-1,
+div.tokenomics-2{
+    font-size: 20px;
+    line-height: 1.5em;
+}
