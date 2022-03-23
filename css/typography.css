@@ -1,5 +1,8 @@
 @charset 'UTF-8';
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,500,600,700');
+/* @font-face { font-family: JuneBug; src: url('JUNEBUG.TTF'); } */
+
 *{
   box-sizing:border-box;
   -o-box-sizing:border-box;
