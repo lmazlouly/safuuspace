@@ -21,7 +21,12 @@
 =================================================
 			FROM 992PX TO 1199PX
 =================================================
-*/ 
+*/
+@media (min-width: 992px) {
+	.open-app {
+		display: none;
+	}
+}
 @media (min-width: 992px) and (max-width: 1199px) {
 	.crypton-vertion .main-banner .banner-title{
 		font-size: 24px;
@@ -128,6 +133,14 @@
 	.sticky-header .btn-app-mobile {
 		display: none!important;
 	}
+	h1.banner-title {
+		font-size: 300%!important
+	}
+	.open-app {
+		width: 70%;
+		margin-top: 3%;
+		margin-left: 3%;
+	}
 }
 /*
 =================================================
@@ -135,6 +148,15 @@
 =================================================
 */ 
 @media (max-width: 991px) {
+	.featured-slider-section img {
+		margin-top: 5%;
+	}
+	.sticky-header {
+		padding-bottom: 1em!important;
+	}
+	h1.banner-title {
+		font-size: 300%!important
+	}
 	footer, .section, section{
 		padding: 68px 0 40px;
 	}
@@ -290,6 +312,13 @@
 	.sticky-header .container {
 		padding-right: 0px!important;
 	}
+	.btn-whitepaper {
+		display: block;
+	}
+	.btn-audit {
+		display: block;
+		margin-top: 1em;
+	}
 }
 
 /*
@@ -308,6 +337,9 @@
 =================================================
 */
 @media (max-width: 767px) {
+	.main-banner .banner-caption {
+		text-align: center;
+	}
 	.tokensale-wrap{
 		padding: 30px;
 	}
@@ -444,7 +476,14 @@
 		/* margin-top: 1em; */
 		text-align: center;
 	}
-	
+	.open-app {
+		display: block;
+		width: 41.7%;
+		margin: 3% auto;
+	}
+	.btn.radius-5.th-bg.v2 {
+		margin-left: 0;
+	}
 }
 @media(max-width: 768px) {
 	.featured-slider-section img {
@@ -467,10 +506,20 @@
 @media (max-width: 530px) {
 	
 }
-@media (max-width: 333px) {
+@media (max-width: 363px) {
 	.btn.radius-5.th-bg.v2 {
 		margin: 0;
 		margin-top: 5%;
+	}
+	.open-app {
+		margin: 5% auto;
+	}
+}
+@media (max-width: 333px) {
+	.open-app {
+		display: block;
+		width: fit-content;
+		margin: 5% auto;
 	}
 }
 /*
