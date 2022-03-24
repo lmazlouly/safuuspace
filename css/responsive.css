@@ -148,6 +148,13 @@
 =================================================
 */ 
 @media (max-width: 991px) {
+	footer {
+		text-align: center!important;
+	}
+	footer ul {
+		justify-content: center;
+		display: flex;
+	}
 	.featured-slider-section img {
 		margin-top: 5%;
 	}
@@ -528,6 +535,9 @@
 =================================================
 */
 @media (max-width: 480px) {
+	.featured-thumb img {
+		margin: auto!important;
+	}
 	.donut-chart-outer #chartdiv{
 		min-height: 290px !important;
 		max-height: 290px !important;
