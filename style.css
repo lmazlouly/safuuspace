@@ -2029,3 +2029,17 @@ div.tokenomics-2{
     margin-top: 5%;
     margin-left: 4%;
 }
+
+i.fas.fa-money-check.fa-2x {
+    box-shadow: 0px 0px 11px 0px rgb(255 0 0 / 75%);
+    -webkit-box-shadow: 0px 0px 11px 0px rgb(255 0 0 / 75%);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(255,0,0,0.75);
+    /* color: red; */
+}
+
+i.fas.fa-money-check-alt.fa-2x {
+    box-shadow: 0px 0px 11px 0px rgb(0 255 56 / 75%);
+    -webkit-box-shadow: 0px 0px 11px 0px rgb(0 255 56 / 75%);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0,255,56,0.75);
+    /* color: rgba(0,255,56,0.75);; */
+}
