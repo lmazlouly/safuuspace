@@ -17,6 +17,16 @@
 	    padding: 131px 100px 138px;
 	}
 }
+@media (min-width: 992px) {
+	.d-992-min-none {
+		display: none!important;
+	}
+}
+@media (max-width: 991px) {
+	.d-991-max-none {
+		display: none!important;
+	}
+}
 /*
 =================================================
 			FROM 992PX TO 1199PX
