@@ -155,6 +155,10 @@
 		justify-content: center;
 		display: flex;
 	}
+	footer ul li {
+		justify-content: center;
+		display: flex;
+	}
 	.featured-slider-section img {
 		margin-top: 5%;
 	}
