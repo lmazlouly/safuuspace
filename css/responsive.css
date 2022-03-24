@@ -26,6 +26,9 @@
 	.open-app {
 		display: none;
 	}
+	img.roadmap-mobile {
+		display: none;
+	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 	.crypton-vertion .main-banner .banner-title{
@@ -148,6 +151,9 @@
 =================================================
 */ 
 @media (max-width: 991px) {
+	img.roadmap {
+		display: none;
+	}
 	footer {
 		text-align: center!important;
 	}
