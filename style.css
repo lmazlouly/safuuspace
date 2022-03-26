@@ -2043,3 +2043,16 @@ i.fas.fa-money-check-alt.fa-2x {
     -moz-box-shadow: 0px 0px 7px 0px rgba(0,255,56,0.75);
     /* color: rgba(0,255,56,0.75);; */
 }
+.bscscan-link {
+    display: block;
+    margin-top: 2em;
+    color: white;
+}
+.bscscan-link:hover,
+.bscscan-link:active {
+    color: #01AEF0;
+}
+.bscscan-link .fa-file-contract {
+    color: #01AEF0;
+    font-size: 20px;
+}
