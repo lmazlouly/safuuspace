@@ -21,10 +21,16 @@
 	.d-992-min-none {
 		display: none!important;
 	}
+	.mobile-header-icon {
+		display: none!important;
+	}
 }
 @media (max-width: 991px) {
 	.d-991-max-none {
 		display: none!important;
+	}
+	.header-icon {
+		display: none;
 	}
 }
 /*
@@ -365,7 +371,10 @@
 */
 @media (max-width: 767px) {
 	.main-banner .banner-caption {
-		text-align: center;
+		text-align: left;
+		font-size: 21px;
+    	/* font-size: 5vw; */
+		color: white;
 	}
 	.tokensale-wrap{
 		padding: 30px;

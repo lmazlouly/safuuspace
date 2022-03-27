@@ -1,8 +1,8 @@
 a.meanmenu-reveal{display:none;}
 .mean-container .mean-bar{background:rgba(0, 0, 0, 0) none repeat scroll 0 0;float:left;min-height:0;padding:0;position:relative;width:100%;z-index:999999;}
 .mean-container a.meanmenu-reveal {
-  border: 1px solid hsl(0, 0%, 0%);
-  color: hsl(0, 0%, 27%);
+  border: 0px solid #fff;
+  color: #fff;
   cursor: pointer;
   display: block;
   font-family: Arial,Helvetica,sans-serif;
@@ -19,7 +19,7 @@ a.meanmenu-reveal{display:none;}
   top: 0;
   width: 22px;
 }
-.mean-container a.meanmenu-reveal span{background:#444 none repeat scroll 0 0;display:block;height:3px;margin-top:3px;}
+.mean-container a.meanmenu-reveal span{background:white none repeat scroll 0 0;display:block;height:3px;margin-top:3px;}
 .mean-container .mean-nav {
   background: #0c1923 none repeat scroll 0 0;
   float: left;

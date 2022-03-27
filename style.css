@@ -2056,3 +2056,17 @@ i.fas.fa-money-check-alt.fa-2x {
     color: #01AEF0;
     font-size: 20px;
 }
+
+.main-banner .banner-caption {
+    color: white;
+}
+
+.header-mobile-icon {
+    display: flex!important;
+    margin-top: 15px!important;
+    justify-content: center;
+}
+.header-mobile-icon a {
+    text-align: center!important;
+    border: unset!important;
+}
