@@ -2070,3 +2070,6 @@ i.fas.fa-money-check-alt.fa-2x {
     text-align: center!important;
     border: unset!important;
 }
+img.buy-sell {
+    max-width: 10%;
+}
